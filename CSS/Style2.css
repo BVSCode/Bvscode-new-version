@@ -1,0 +1,282 @@
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+
+    /* Navbar Section */
+    #navbar{
+        display: flex;
+        align-items: center;
+        position: sticky;
+        top: 0px;
+    }
+
+
+    #navbar::before {
+        content: "";
+        background-color: #343a40;
+        position: absolute;
+        /* dont remove this, this is very important */
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+    }
+
+
+    #navbar ul {
+        display: flex;
+        font-family: 'Baloo Paaji 2', cursive;
+    }
+
+
+    #navbar li {
+        display: flex;
+        text-decoration: none;
+
+    }
+
+    #navbar ul li a {
+        margin: 5px 5px;
+        color: white;
+        display: block;
+        padding: 0px 5px;
+        font-size: 1rem;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+
+    #navbar ul li a:hover {
+        color: rgb(240, 231, 231);
+    }
+
+    /* #navbar ul li a:visited {
+        color:rgb(77, 72, 72);
+    } */
+
+    #logo img {
+        margin-left: 30px;
+        margin-right: 10px;
+        height: 40px;
+        border-radius: 44px;
+        border: 2px solid white;
+        cursor: pointer;
+        margin-top: 7px;
+        margin-bottom: 3px;
+    }
+
+    /* Home Section code */
+    .container{
+        text-align: center;
+    }
+
+    #logo-2 img {
+        margin: 0px 15px;
+        height: 120px;
+        border-radius: 70px;
+        border: 2px solid white;
+        cursor: pointer;
+    }
+    .home-select {
+        display: flex;
+        flex-direction: column;
+        height: 450px;
+        padding: 0px 200px;
+        justify-content: center;
+        align-items: center;
+        background-color: #e2e2e2;
+    }
+
+    #home h1 {
+        color: black;
+        text-align: center;
+        font-family: 'Bree Serif', serif;
+    }
+
+
+    #home p {
+        color: black;
+        text-align: center;
+        font-size: 1.2rem;
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 15px;
+    }
+
+    /* Cource section */
+    #cources-prog {
+        height: 100%;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+
+    #cources {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #cources .cource-item img {
+        height: 190px;
+        margin: auto;
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        border-radius: 3px;
+    }
+
+    #cources .cource-item p {
+        font-size: 15px;
+        /* font-family: 'Bree Serif', serif; */
+        margin-bottom: 15px;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    #cources .box {
+        border: 2px solid rgba(0,0,0,.125);
+        padding: 0px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 25px;
+        margin-right: 25px;
+
+        border-radius: 5px;
+        height: 460px;
+        width: 300px;
+        background-color: white;
+    }
+
+    .heading3 {
+        font-size: 1.35rem;
+        font-family: 'Bree Serif', serif;
+        padding-bottom: 20px;
+        padding-top: 0px;
+    }
+
+
+    #cources .cource-item {
+        font-size: 3rem;
+    }
+
+    /* Footer section */
+    footer {
+        font-size: 1.2rem;
+        background-color: #343a40;
+        color: white;
+        padding: 15px 10px;
+    }
+
+    /* Utillity classes */
+    .h-primary {
+        font-size: 1.89rem;
+        padding: 12px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: 'Bree Serif', serif;
+    }
+
+    .h-secondary {
+        font-size: 1.6rem;
+        padding: 12px;
+        font-family: 'Bree Serif', serif;
+    }
+
+    .h-trd{
+        font-size: 1.89rem;
+        font-family: 'Bree Serif', serif;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    /* Button like a Bootstrap */
+    /* .bootstrap-btn {
+        display: inline-block;
+        font-weight: 400;
+        color: #212529;
+        text-align: center;
+        border: 1px solid transparent;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        color: #fff;
+        background-color: #007bff;
+        cursor: pointer;
+    } */
+
+    .bootstrap-btn {
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        cursor: pointer;
+        font-family: 'Baloo Paaji 2', cursive;
+        text-decoration: none;
+        margin: 2px 2px;
+        text-decoration: none;
+    }
+
+    button a{
+        text-decoration: none;
+        color: white;
+    }
+
+    /* Color Efect Primary blue */
+    .bootstrap-btn-primary-efe {
+        color: #212529;
+        border: 1px solid transparent;
+        color: #fff;
+        background-color: #007bff;
+    }
+    
+    .bootstrap-btn:hover{
+          background-color: #0069d9;
+    
+    }
+
+    /* Color Efect success green */
+    .bootstrap-btn-success-efe {
+        color: #fff;
+        border: 1px solid transparent;
+        color: #fff;
+        background-color: #28a745; 
+        border-color: #28a745;
+    }
+
+    .bootstrap-btn-success-efe:hover{
+        background-color: #089429;
+  
+    }
+
+
+    /* Color Efect danger red */
+    .bootstrap-btn-danger-efe {
+        color: #fff;
+        border: 1px solid transparent;
+        color: #fff;
+        background-color: #dc3545; 
+        border-color: #dc3545;
+    }
+
+    .bootstrap-btn-danger-efe:hover{
+        background-color: #cc3141;
+  
+    }
+
+
+

@@ -1,0 +1,89 @@
+/* navigation */
+#navbar {
+    flex-direction: column;
+    text-align: center;
+}
+
+.navbar{
+    height: 202px;
+    transition: all 0.3s ease-out;
+}
+
+.nav-list {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav#navbar ul li a{
+    font-size: 14px;
+    padding: 0px 7px;
+}
+
+/* it will overRight the logo img property value */
+#logo img{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* home Section */
+.home-select-resp {
+    height: 560px;
+    padding: 0px 5px;
+}
+
+section#home::before{
+    height: 545px;
+}
+
+section#home p {
+    font-size: 15px;
+    
+}
+
+/* Cource Section */
+#cources {
+    flex-direction: column;
+}
+
+#cources .box {
+    width: 265px;
+}
+
+#cources .cource-item img {
+    height: 165px;
+}
+
+
+/* Utility classes */
+h1.h-primary {
+    font-size: 25px;
+}
+
+.h-trd {
+    font-size: 25px;
+}
+
+.burger{
+    display: block;
+   position: absolute;
+   cursor: pointer;
+   right: 5%;
+   top: 15px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+.h-nav{
+    height: 60px;
+}
+
+.v-class{
+    opacity: 0;
+}
